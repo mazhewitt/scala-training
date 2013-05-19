@@ -60,19 +60,19 @@ class BloxorzSuite extends FunSuite {
   }
 
 
-  test ("can find 4 logal neighbours with History") {
+  test ("can find 3 legal neighbours with History") {
     new Level1 {
       val doneBlock = Block (Pos(4,7), Pos(4,7))
-      val history = Right :: Right :: Down :: Nil
+      val history = optsolution
       
       val neighWithHist = neighborsWithHistory(doneBlock, history)
-      assert (neighWithHist.length === 4)
-
-
+      assert (neighWithHist.length === 3)
+      assert (neighWithHist.contains((doneBlock.up, Up::optsolution)))
+      assert (neighWithHist.contains((doneBlock.left, Left::optsolution)))
+      assert (neighWithHist.contains((doneBlock.right, Right::optsolution)))
+      assert (!neighWithHist.contains((doneBlock.down, Down::optsolution)))
     }
   }
-
-
 
   test("terrain function level 1") {
     new Level1 {
@@ -89,6 +89,7 @@ class BloxorzSuite extends FunSuite {
 
   test("optimal solution for level 1") {
     new Level1 {
+      println(solution)
       assert(solve(solution) == Block(goal, goal))
     }
   }
