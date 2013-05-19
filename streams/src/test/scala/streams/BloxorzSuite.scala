@@ -40,6 +40,14 @@ class BloxorzSuite extends FunSuite {
     val optsolution = List(Right, Right, Down, Right, Right, Right, Down)
   }
 
+  test ("can spot done") {
+    new Level1 {
+      val doneBlock = Block (Pos(4,7), Pos(4,7))
+      assert (done(doneBlock))
+    }
+  }
+
+
   test("terrain function level 1") {
     new Level1 {
       assert(terrain(Pos(0,0)), "0,0")
