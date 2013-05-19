@@ -1,0 +1,84 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun May 19 07:34:03 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("mem"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/scalawork/streams/src/main/scala/streams/" "~/scalawork/streams/.ensime" "~/.emacs.d/ensime/elisp/ensime-sbt.el" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/week7/" "~/scalawork/streams/.ensime" "~/.emacs.d/" "~/.emacs.d/init.el" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/src/main/scala/streams/GameDef.scala" "~/scalawork/streams/src/main/scala/streams/Bloxorz.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala"
+  "StringParserTerrain.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  1683
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/main/scala/streams/GameDef.scala"
+  "GameDef.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  3908
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "week7"
+  'dired-mode
+  nil
+  303
+  '(nil nil)
+  t
+  '("/home/mazda/scalawork/streams/src/main/scala/week7/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/main/scala/week7/Pouring.scala"
+  "Pouring.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  1449
+  '(1144 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/main/scala/streams/Bloxorz.scala"
+  "Bloxorz.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  661
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"
+  "BloxorzSuite.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  119
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
