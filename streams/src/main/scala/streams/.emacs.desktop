@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun May 19 07:34:03 2013
+;; Created Sun May 19 09:06:38 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -13,7 +13,7 @@
 (setq search-ring '("mem"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/scalawork/streams/src/main/scala/streams/" "~/scalawork/streams/.ensime" "~/.emacs.d/ensime/elisp/ensime-sbt.el" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/week7/" "~/scalawork/streams/.ensime" "~/.emacs.d/" "~/.emacs.d/init.el" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/src/main/scala/streams/GameDef.scala" "~/scalawork/streams/src/main/scala/streams/Bloxorz.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"))
+(setq file-name-history '("~/scalawork/streams/src/main/scala/streams/" "~/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala" "~/scalawork/streams/src/main/scala/streams/GameDef.scala" "~/scalawork/streams/" "~/.ssh/id_rsa.pub" "~/scalawork/streams/src/main/scala/streams/" "~/scalawork/streams/.ensime" "~/.emacs.d/ensime/elisp/ensime-sbt.el" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/main/scala/week7/" "~/scalawork/streams/.ensime" "~/.emacs.d/" "~/.emacs.d/init.el" "~/scalawork/streams/src/main/scala/streams/StringParserTerrain.scala" "~/scalawork/streams/src/main/scala/streams/GameDef.scala" "~/scalawork/streams/src/main/scala/streams/Bloxorz.scala" "~/scalawork/streams/.ensime" "~/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
@@ -21,8 +21,8 @@
   "StringParserTerrain.scala"
   'scala-mode
   '(auto-complete-mode ensime-mode)
-  1683
-  '(nil nil)
+  2170
+  '(1744 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
@@ -32,11 +32,33 @@
   "GameDef.scala"
   'scala-mode
   '(auto-complete-mode ensime-mode)
-  3908
+  3850
+  '(2127 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/mazda/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"
+  "BloxorzSuite.scala"
+  'scala-mode
+  '(auto-complete-mode ensime-mode)
+  1137
   '(nil nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/mazda/.ssh/id_rsa.pub"
+  "id_rsa.pub"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   nil
@@ -66,17 +88,6 @@
   'scala-mode
   '(auto-complete-mode ensime-mode)
   661
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/mazda/scalawork/streams/src/test/scala/streams/BloxorzSuite.scala"
-  "BloxorzSuite.scala"
-  'scala-mode
-  '(auto-complete-mode ensime-mode)
-  119
   '(nil nil)
   nil
   nil
