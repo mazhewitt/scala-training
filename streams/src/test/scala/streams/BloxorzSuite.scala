@@ -47,6 +47,32 @@ class BloxorzSuite extends FunSuite {
     }
   }
 
+  test ("can find 3 legal neighbours ") {
+    new Level1 {
+      val doneBlock = Block (Pos(4,7), Pos(4,7))
+      val neighbors = doneBlock.legalNeighbors
+      assert (neighbors.length === 3)
+      assert (neighbors.contains((doneBlock.up, Up)))
+      assert (neighbors.contains((doneBlock.left, Left)))
+      assert (neighbors.contains((doneBlock.right, Right)))
+      assert (!neighbors.contains((doneBlock.down, Down)))
+    }
+  }
+
+
+  test ("can find 4 logal neighbours with History") {
+    new Level1 {
+      val doneBlock = Block (Pos(4,7), Pos(4,7))
+      val history = Right :: Right :: Down :: Nil
+      
+      val neighWithHist = neighborsWithHistory(doneBlock, history)
+      assert (neighWithHist.length === 4)
+
+
+    }
+  }
+
+
 
   test("terrain function level 1") {
     new Level1 {
